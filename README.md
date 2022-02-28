@@ -24,27 +24,23 @@ For each word, "freq" scores how common it is in the English language. Lower "fr
 Another example:
 
 ```
-word_generator("s___n", forced_chars="e", sortby="freq", cutoff_frequency=0)
+word_generator("s___l", forced_chars="e", sortby="freq", cutoff_frequency=0)
 ```
->[{'word': 'seven', 'freq': 0.00012, 'info': 5.13},
+>[{'word': 'steel', 'freq': 5.13e-05, 'info': 35.43},
 >
->{'word': 'stern', 'freq': 7.94e-06, 'info': 74.07},
+>{'word': 'smell', 'freq': 3.09e-05, 'info': 15.36},
 >
->{'word': 'stein', 'freq': 4.47e-06, 'info': 73.88},
+>{'word': 'steal', 'freq': 2.57e-05, 'info': 78.74},
 >
->{'word': 'sedan', 'freq': 3.55e-06, 'info': 60.56},
+>{'word': 'shell', 'freq': 2.45e-05, 'info': 15.31},
 >
->{'word': 'siren', 'freq': 2.88e-06, 'info': 77.09},
+>{'word': 'spell', 'freq': 2.34e-05, 'info': 16.14},
 >
->{'word': 'semen', 'freq': 2.4e-06, 'info': 15.36},
+>{'word': 'swell', 'freq': 4.37e-06, 'info': 6.57},
 >
->{'word': 'sheen', 'freq': 2.19e-06, 'info': 15.31},
+>{'word': 'spiel', 'freq': 4.57e-07, 'info': 54.59},
 >
->{'word': 'skein', 'freq': 2.19e-07, 'info': 44.06},
->
->{'word': 'shewn', 'freq': 4.47e-08, 'info': 21.88},
->
->{'word': 'serin', 'freq': 4.17e-08, 'info': 77.09}]
+>{'word': 'sepal', 'freq': 6.46e-08, 'info': 59.45}]
 
 This time the outputs are sorted by frequency, so more common words are suggested first.
 
