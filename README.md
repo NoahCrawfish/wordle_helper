@@ -1,4 +1,4 @@
-# wordle_helper
+# Wordle Helper
 
 Call the ```word_generator``` function to get a list of possible words, given a wordle game.
 
