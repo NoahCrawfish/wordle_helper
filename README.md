@@ -45,3 +45,9 @@ word_generator("s___l", forced_chars="e", sortby="freq", cutoff_frequency=0)
 This time the outputs are sorted by frequency, so more common words are suggested first.
 
 The "cutoff_frequency" parameter specifies the threshold that a word's "freq" must be greater than to be included in the output.
+
+### Setup
+
+> pip install pyenchant
+> 
+> pip install wordfreq
